@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Tuppu-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tuppuId",
+		"tuppuRevision",
+		"tuppuPreviousRevision",
+		"tuppuDeleted"
+	],
+	"name" : "TuppuDocument",
+	"type" : "normal"
+}

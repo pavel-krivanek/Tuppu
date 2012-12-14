@@ -1,0 +1,4 @@
+accessing
+previousRevision
+	
+	^ previousRevision

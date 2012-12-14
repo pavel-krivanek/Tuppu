@@ -1,0 +1,4 @@
+*Tuppu-Core
+isTuppuDocument
+
+	^ false
