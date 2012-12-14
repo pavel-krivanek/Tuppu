@@ -1,4 +1,4 @@
 accessing
 tuppuRevision: anObject
 	
-	tuppuRevision := anObject
+	tuppuInfo revision: anObject

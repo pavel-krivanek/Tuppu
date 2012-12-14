@@ -1,4 +1,4 @@
 accessing
 tuppuPreviousRevision
 	
-	^ tuppuPreviousRevision
+	^ tuppuInfo previousRevision

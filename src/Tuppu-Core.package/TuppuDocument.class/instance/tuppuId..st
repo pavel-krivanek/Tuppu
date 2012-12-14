@@ -1,4 +1,4 @@
 accessing
 tuppuId: anObject
 	
-	tuppuId := anObject
+	tuppuInfo id: anObject.

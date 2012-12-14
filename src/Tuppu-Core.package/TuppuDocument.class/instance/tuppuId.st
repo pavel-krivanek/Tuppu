@@ -1,4 +1,4 @@
 accessing
 tuppuId
 	
-	^ tuppuId
+	^ tuppuInfo id

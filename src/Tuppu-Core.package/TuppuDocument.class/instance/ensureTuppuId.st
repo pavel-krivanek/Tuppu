@@ -1,4 +1,4 @@
 accessing
 ensureTuppuId
 
-	^ tuppuId := tuppuId ifNil: [UUID new].
+	^ tuppuInfo ensureId

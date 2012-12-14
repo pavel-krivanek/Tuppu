@@ -1,4 +1,4 @@
 accessing
 tuppuDeleted: anObject
 	
-	tuppuDeleted := anObject
+	tuppuInfo deleted: anObject

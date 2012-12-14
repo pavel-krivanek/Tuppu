@@ -6,10 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"tuppuId",
-		"tuppuRevision",
-		"tuppuPreviousRevision",
-		"tuppuDeleted"
+		"tuppuInfo"
 	],
 	"name" : "TuppuDocument",
 	"type" : "normal"

@@ -9,7 +9,8 @@
 		"id",
 		"revision",
 		"position",
-		"previousRevision"
+		"previousRevision",
+		"deleted"
 	],
 	"name" : "TuppuDocumentInfo",
 	"type" : "normal"

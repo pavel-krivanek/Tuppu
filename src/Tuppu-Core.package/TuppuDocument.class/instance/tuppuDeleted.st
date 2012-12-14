@@ -1,4 +1,4 @@
 accessing
 tuppuDeleted
 	
-	^ tuppuDeleted
+	^ tuppuInfo deleted
