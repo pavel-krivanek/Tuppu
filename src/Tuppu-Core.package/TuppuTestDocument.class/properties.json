@@ -1,15 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "TuppuDocument",
 	"category" : "Tuppu-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"id",
-		"file",
-		"mutex"
+		"number"
 	],
-	"name" : "TuppuRepository",
+	"name" : "TuppuTestDocument",
 	"type" : "normal"
 }

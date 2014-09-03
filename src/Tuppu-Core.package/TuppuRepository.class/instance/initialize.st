@@ -4,5 +4,5 @@ initialize
 
 	super initialize.
 
+	id := UUID new.
 	mutex := Mutex new.
-	file := self open.
