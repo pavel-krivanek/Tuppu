@@ -1,4 +1,6 @@
 file access
 open: databaseName
 
-	^ file := mutex critical: [(FileStream fileNamed: (self fileNameFor: databaseName)) binary]
+	fileReference := self fileReferenceFor: databaseName.
+
+	^ file := mutex critical: [(FileStream fileNamed: fileReference) binary]

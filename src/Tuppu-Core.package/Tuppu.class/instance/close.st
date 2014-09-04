@@ -1,4 +1,4 @@
-accessing
+opening, closing
 close
 
 	mutex critical: [ 

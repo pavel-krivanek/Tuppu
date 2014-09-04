@@ -1,6 +1,5 @@
-accessing
+documents
 readId: anId
 
-	| info |
-	info := index at: anId.
-	^ repository readAt: info position.
+	^ self readId: anId ifAbsent: [  TuppuDocumentMissing signal  ]	
+	

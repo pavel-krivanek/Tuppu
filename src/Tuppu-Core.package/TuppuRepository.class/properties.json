@@ -1,12 +1,12 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "PavelKrivanek 9/4/2014 14:55",
 	"super" : "Object",
 	"category" : "Tuppu-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"id",
+		"fileReference",
 		"file",
 		"mutex"
 	],

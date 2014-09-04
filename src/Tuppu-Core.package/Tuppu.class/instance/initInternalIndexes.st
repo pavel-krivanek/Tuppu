@@ -1,4 +1,4 @@
-initialize
+initialization
 initInternalIndexes
 
 	index := Dictionary new.

@@ -1,4 +1,4 @@
-accessing
+conversion
 asTuppuDocumentInfo
 
 	^ tuppuInfo copy.

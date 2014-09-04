@@ -1,4 +1,4 @@
-accessing
+private
 duplicateDeletion: aDocument
 
 	"do nothing"

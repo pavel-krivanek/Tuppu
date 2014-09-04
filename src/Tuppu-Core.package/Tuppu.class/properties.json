@@ -1,11 +1,12 @@
 {
-	"commentStamp" : "PavelKrivanek 9/3/2014 13:25",
+	"commentStamp" : "PavelKrivanek 9/4/2014 15:42",
 	"super" : "Object",
 	"category" : "Tuppu-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"databaseName",
 		"mutex",
 		"repository",
 		"index",

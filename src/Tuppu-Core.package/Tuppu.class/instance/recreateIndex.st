@@ -1,4 +1,4 @@
-initialize
+private
 recreateIndex
 
 	mutex critical: [
@@ -6,7 +6,7 @@ recreateIndex
 		
 		repository setToStart.
 		[repository atEnd] whileFalse: [
-			| aDocument info position |
+			| aDocument position |
 			position := repository position.
 			aDocument := repository read.
 			self registerDocument: aDocument position: position ]].

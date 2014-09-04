@@ -1,5 +1,13 @@
-accessing
-open: databaseName
+opening, closing
+open: aDatabaseName
+
+	| firstOpening |
+	
+	firstOpening := self isOpened not.
+
+	databaseName := aDatabaseName.
 
 	mutex critical: [ 
-		repository open: databaseName ].
+		repository open: aDatabaseName ].
+	
+	firstOpening ifTrue: [ self recreateIndex].

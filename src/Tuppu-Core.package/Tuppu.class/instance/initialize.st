@@ -1,4 +1,4 @@
-initialize
+initialization
 initialize
 
 	"Initialization code for Tuppu"

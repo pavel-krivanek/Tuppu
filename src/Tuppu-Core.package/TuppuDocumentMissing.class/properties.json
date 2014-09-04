@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "PavelKrivanek 9/4/2014 15:01",
+	"commentStamp" : "PavelKrivanek 9/4/2014 14:57",
 	"super" : "TuppuError",
 	"category" : "Tuppu-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TuppuVersionsConflict",
+	"name" : "TuppuDocumentMissing",
 	"type" : "normal"
 }

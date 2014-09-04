@@ -1,4 +1,4 @@
-accessing
+initialization
 ensureTuppuId
 
 	^ tuppuInfo ensureId

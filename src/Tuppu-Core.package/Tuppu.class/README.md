@@ -1,19 +1,41 @@
-db := Tuppu open: 'test'.
+Tuppu is a very simple document store that uses Fuel internally. 
 
-doc := TuppuTestDocument new.
+"Tuppu" is an ancient akkadian word for clay tablets. 
 
-db store: doc.
+Examples:
+============
+
+| db doc doc2 |
+db := Tuppu open: 'testDatabase' .
+
+doc := TuppuTestDocument new. "use own subclass here"
+
+"save current version of the document to the database."
+db store: doc.	
+
+"save document under specified id"
+db store: doc as: #root.	
+"another way"
+doc tuppuId: #root.
+db store: doc.	
+
+"read the latest saved version of the document from the database"
+doc2 := db read: doc.
+
+"read the latest version of the document with the specified id"
+doc2 := db readId: #root.
+
+"delete document from the database. It doesn't delete older versions from the database. It saves the new revision of the document marked as deleted."
 db delete: doc.
 
-db index size
-db allRevisions size.
-
-[1 to: 400 do: [:i | 
-		doc number: i.
-		db store: doc]] timeToRun.
-
-db allRevisions size.
-
+"get all older versions of the document"
 db getAllVersions: doc.
 
-db close
+"close database"
+db close.
+
+
+============
+
+You may look at the class TuppuTestBasics to see the next exaples
+

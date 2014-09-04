@@ -1,4 +1,4 @@
-accessing
+documents
 read: aDocument
 
 	| info |
