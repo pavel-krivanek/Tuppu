@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "PavelKrivanek 9/4/2014 16:18",
+	"super" : "Object",
+	"category" : "ConfigurationOfTuppu",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"LastVersionLoad"
+	],
+	"instvars" : [
+		"project"
+	],
+	"name" : "ConfigurationOfTuppu",
+	"type" : "normal"
+}
