@@ -1,0 +1,1 @@
+Basic class for auxiliary methods for Tuppu tests

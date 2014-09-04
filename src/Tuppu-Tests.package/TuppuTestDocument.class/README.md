@@ -1,0 +1,1 @@
+A TuppuTestDocument is a very simple document used in Tuppu tests cases.
