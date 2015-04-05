@@ -1,9 +1,11 @@
-as yet unclassified
+tests
 testRevision
 
-	| doc doc2 rev  |
+	| doc doc2 rev |
 	
-	self test:[ :db |
+	doc := nil.
+	
+	self test: [ :db |
 			doc := TuppuTestDocument new.
 			doc number: 7.
 			self assert: (doc tuppuRevision isNil).

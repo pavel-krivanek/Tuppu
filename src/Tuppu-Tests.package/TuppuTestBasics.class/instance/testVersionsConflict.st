@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testVersionsConflict
 
 	| doc1 doc2 |
@@ -12,11 +12,10 @@ testVersionsConflict
 			self assert: (doc1 tuppuRevision = doc2 tuppuRevision).
 			doc2 number: 8.
 			db store: doc2.
-			self shouldnt: [db store: doc2] raise: Exception.
+			db store: doc2. "shouldn't raise Exception"
 			
 			self should: [db store: doc1] raise: TuppuVersionsConflict.]
 
-		afterReopen: [ :db |
-			]
+		
 	
 	

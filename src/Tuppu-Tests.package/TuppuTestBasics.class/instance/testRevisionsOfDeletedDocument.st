@@ -1,12 +1,10 @@
-as yet unclassified
+tests
 testRevisionsOfDeletedDocument
 
 	| doc |
 	
 	self test:[ :db |
-			doc := TuppuTestDocument new.
-			doc tuppuId: #root.
-			doc number: 7.
+			doc := self simpleDocumentWithNumber.
 			db store: doc.
 
 			self assert: (db allRevisions size = 1).

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testColdReopen
 
 	| db name doc doc2 |
@@ -6,12 +6,9 @@ testColdReopen
 	name := UUID new asString. 
 	
 	db := Tuppu open: name.
-	
 	self assert: db isOpened.
 	
-	doc := TuppuTestDocument new.
-	doc tuppuId: #root.
-	doc number: 7.
+	doc := self simpleDocumentWithNumber.
 	db store: doc.
 	
 	self assert: db isOpened.
@@ -36,10 +33,8 @@ testColdReopen
 	self assert: (doc number = 8).
 	
 	db close.
-
 	self deny: db isOpened.
 	
 	db deleteDatabase.
-
 	self deny: db isOpened.
 	

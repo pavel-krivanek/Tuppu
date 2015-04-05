@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testDocumentInfo
 
 	| info1 info2 |

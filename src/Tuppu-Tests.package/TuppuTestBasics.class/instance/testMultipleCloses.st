@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testMultipleCloses
 
 	| db name doc  |
@@ -9,9 +9,7 @@ testMultipleCloses
 	
 	self assert: db isOpened.
 	
-	doc := TuppuTestDocument new.
-	doc tuppuId: #root.
-	doc number: 7.
+	doc := self simpleDocumentWithNumber.
 	db store: doc.
 	
 	self assert: db isOpened.

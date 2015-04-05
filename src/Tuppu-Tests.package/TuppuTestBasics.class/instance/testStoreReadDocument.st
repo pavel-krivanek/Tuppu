@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testStoreReadDocument
 
 	| db name doc doc2 |
@@ -9,9 +9,7 @@ testStoreReadDocument
 	
 	self assert: db isOpened.
 	
-	doc := TuppuTestDocument new.
-	doc tuppuId: #root.
-	doc number: 7.
+	doc := self simpleDocumentWithNumber.
 	db store: doc.
 	
 	doc2 := db readId: #root.

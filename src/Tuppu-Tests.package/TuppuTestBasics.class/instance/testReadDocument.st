@@ -1,12 +1,11 @@
-as yet unclassified
+tests
 testReadDocument
 
 	| doc |
 	
+	doc := self simpleDocumentWithNumber.
+
 	self test: [ :db |
-			doc := TuppuTestDocument new.
-			doc tuppuId: #root.
-			doc number: 7.
 			db store: doc.
 			
 			doc number: 8.

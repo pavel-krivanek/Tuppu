@@ -1,5 +1,8 @@
-accessing
+printing
 printOn: aStream
 
 	super printOn: aStream.
-	aStream nextPutAll: '(', self number asString, ')'
+	aStream
+		nextPutAll: '(';
+		nextPutAll: self number asString;
+		nextPutAll: ')'
