@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "PavelKrivanek 4/27/2015 12:24",
+	"super" : "TuppuDocument",
+	"category" : "Tuppu-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"value"
+	],
+	"name" : "TuppuValueHolder",
+	"type" : "normal"
+}
